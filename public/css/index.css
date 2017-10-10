@@ -1,246 +1,248 @@
-@font-face 
+@font-face
 {
     font-family: Calibri;
     src: url('../fonts/calibri.ttf');
 }
 
-//Mode Mobile
+/*Mode Mobile*/
+
 @media only screen and (orientation:portrait)
 {
-    html
-    {
-        user-select: none;
-    }
+  html
+  {
+      user-select: none;
+  }
 
-    body
-    {
-        font-family: Calibri;
+  body
+  {
+      font-family: Calibri;
 
-        font-size: 2.5vh;
-    }
+      font-size: 2.5vh;
+  }
 
-    header
-    {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 12%;
-        background: #efefef url("../images/logo.png") no-repeat;
-        background-position: center;
-        background-size: auto 7vh;
-    }
+  header
+  {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 12%;
+      background: #efefef url("../images/logo.png") no-repeat;
+      background-position: center;
+      background-size: auto 7vh;
+  }
 
-    section
-    {
-        position: absolute;
-        top: 20%;
-        left: 0;
-        width: 100%;
-        height: 80%;
-    }
+  section
+  {
+      position: absolute;
+      top: 20%;
+      left: 0;
+      width: 100%;
+      height: 80%;
+  }
 
-    section #input_area
-    {
-        position: absolute;
-        top: 5%;
-        left: 0;
-        width: 100%;
-        height: 50%;
-        display: table;
-    }
+  section #input_area
+  {
+      position: absolute;
+      top: 5%;
+      left: 0;
+      width: 100%;
+      height: 50%;
+      display: table;
+  }
 
-    section #input_area span
-    {
-        display: table-cell;
-        vertical-align: middle;
+  section #input_area span
+  {
+      display: table-cell;
+      vertical-align: middle;
 
-        text-align: center;
-    }
+      text-align: center;
+  }
 
-    section #input_area span input[type="text"]
-    {
-        border: none;
-        border-bottom: 1px solid #009688;
-        color: #009688;
-        font-family: Calibri;
-        font-size: 2.5vh;
-        height: 6vh;
-        width: 54vw;
-        padding-left: 2vw;
-    }
+  section #input_area span input[type="text"]
+  {
+      border: none;
+      border-bottom: 1px solid #009688;
+      color: #009688;
+      font-family: Calibri;
+      font-size: 2.5vh;
+      height: 6vh;
+      width: 54vw;
+      padding-left: 2vw;
+  }
 
-    section #input_area span input[type="button"]
-    {
-        border: none;
-        border-radius: 5px;
-        background: #009688;
-        color: #efefef;
-        font-family: Calibri;
-        font-size: 3vh;
-        height: 6vh;
-        width: 17vw;
-        margin-left: 2vw;
-        cursor: pointer;
-    }
+  section #input_area span input[type="button"]
+  {
+      border: none;
+      border-radius: 5px;
+      background: #009688;
+      color: #efefef;
+      font-family: Calibri;
+      font-size: 3vh;
+      height: 6vh;
+      width: 17vw;
+      margin-left: 2vw;
+      cursor: pointer;
+  }
 
-    section #features
-    {
-        position: absolute;
-        bottom: 10%;
-        left: 0%;
-        width: 97%;
-        height: 39%;
-        display: table;
-    }
+  section #features
+  {
+      position: absolute;
+      bottom: 10%;
+      left: 0%;
+      width: 97%;
+      height: 39%;
+      display: table;
+  }
 
-    section #features span
-    {
-        display: table-cell;
-        vertical-align: middle;
-        text-align: center;
-    }
+  section #features span
+  {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+  }
 
-    section #features span b
-    {
-        color: #FF5722;
-        font-weight: lighter;
-        font-size: 2.5vh;
-    }
+  section #features span b
+  {
+      color: #FF5722;
+      font-weight: lighter;
+      font-size: 2.5vh;
+  }
 
-    section #features span img
-    {
-        height: 6vh;
+  section #features span img
+  {
+      height: 6vh;
 
-        padding-top: 2vh;
-    }
+      padding-top: 2vh;
+  }
 }
 
-// Mode Bureau
+/*Mode Bureau*/
+
 @media only screen and (orientation:landscape)
 {
-    html
-    {
-        user-select: none;
-    }
+  html
+  {
+      user-select: none;
+  }
 
-    body
-    {
-        font-family: Calibri;
+  body
+  {
+      font-family: Calibri;
 
-        font-size: 2.5vh;
-    }
+      font-size: 2.5vh;
+  }
 
-    header
-    {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 20%;
+  header
+  {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 20%;
 
-        background: #efefef url("../images/logo.png") no-repeat;
-        background-position: center;
-        background-size: auto 12vh;
-    }
+      background: #efefef url("../images/logo.png") no-repeat;
+      background-position: center;
+      background-size: auto 12vh;
+  }
 
-    section
-    {
-        position: absolute;
-        top: 20%;
-        left: 0;
-        width: 100%;
-        height: 80%;
-    }
+  section
+  {
+      position: absolute;
+      top: 20%;
+      left: 0;
+      width: 100%;
+      height: 80%;
+  }
 
-    section #input_area
-    {
-        position: absolute;
-        top: 10%;
-        left: 0;
-        width: 100%;
-        height: 50%;
+  section #input_area
+  {
+      position: absolute;
+      top: 10%;
+      left: 0;
+      width: 100%;
+      height: 50%;
 
-        display: table;
-    }
+      display: table;
+  }
 
-    section #input_area span
-    {
-        display: table-cell;
-        vertical-align: middle;
+  section #input_area span
+  {
+      display: table-cell;
+      vertical-align: middle;
 
-        text-align: center;
-    }
+      text-align: center;
+  }
 
-    section #input_area span input[type="text"]
-    {
-        border: none;
-        border-bottom: 1px solid #009688;
+  section #input_area span input[type="text"]
+  {
+      border: none;
+      border-bottom: 1px solid #009688;
 
-        color: #009688;
+      color: #009688;
 
-        font-family: Calibri;
-        font-size: 3vh;
+      font-family: Calibri;
+      font-size: 3vh;
 
-        height: 6vh;
-        width: 40vw;
+      height: 6vh;
+      width: 40vw;
 
-        padding-left: 2vw;
-    }
+      padding-left: 2vw;
+  }
 
-    section #input_area span input[type="button"]
-    {
-        border: none;
-        border-radius: 5px;
+  section #input_area span input[type="button"]
+  {
+      border: none;
+      border-radius: 5px;
 
-        background: #009688;
+      background: #009688;
 
-        color: #efefef;
+      color: #efefef;
 
-        font-family: Calibri;
-        font-size: 3vh;
+      font-family: Calibri;
+      font-size: 3vh;
 
-        height: 6vh;
-        width: 6vw;
+      height: 6vh;
+      width: 6vw;
 
-        margin-left: 2vw;
+      margin-left: 2vw;
 
-        cursor: pointer;
-    }
+      cursor: pointer;
+  }
 
-    section #features
-    {
-        position: absolute;
-        bottom: 10%;
-        left: 25%;
-        width: 50%;
-        height: 30%;
+  section #features
+  {
+      position: absolute;
+      bottom: 10%;
+      left: 25%;
+      width: 50%;
+      height: 30%;
 
-        display: table;
-    }
+      display: table;
+  }
 
-    section #features span
-    {
-        display: table-cell;
-        vertical-align: middle;
+  section #features span
+  {
+      display: table-cell;
+      vertical-align: middle;
 
-        text-align: center;
+      text-align: center;
 
-        width: calc(50vw / 3);
-    }
+      width: calc(50vw / 3);
+  }
 
-    section #features span b
-    {
-        color: #FF5722;
+  section #features span b
+  {
+      color: #FF5722;
 
-        font-weight: lighter;
-        font-size: 3vh;
-    }
+      font-weight: lighter;
+      font-size: 3vh;
+  }
 
-    section #features span img
-    {
-        height: 6vh;
+  section #features span img
+  {
+      height: 6vh;
 
-        padding-top: 2vh;
-    }
+      padding-top: 2vh;
+  }
 }
